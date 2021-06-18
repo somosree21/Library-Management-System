@@ -277,7 +277,7 @@ top_frame = Frame(qt, bd=10, relief=GROOVE)
 top_frame.place(x=0, y=0, width=1590, height=200)
 to_i_l = Label(top_frame, image=to_im)
 to_i_l.place(x=0, y=0, relwidth=1, relheight=1)
-front_text = Label(top_frame, relief=RAISED, bd=10, text="SMBST Library Management system",
+front_text = Label(top_frame, relief=RAISED, bd=10, text="Library Management system",
                    font=("Comic Sans MS", 30, "bold"), fg="white", bg="black")
 front_text.place(x=390, y=60, width=800)
 s_frame = Frame(qt, bd=4, relief=RIDGE, bg="light blue")
